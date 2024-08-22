@@ -13,6 +13,7 @@ int main(){
 	scanf("%d", &B);
 	for (i=1 to B) do{
 		valor = valor + A
+		printf("El valor actual es %d", valor);
 	}
 	printf("El producto de ambos numeros es de %d\n", valor);
 	system("pause");
